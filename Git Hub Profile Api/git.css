@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(167, 233, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#name{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.outer-cont{
+    /* border: 2px solid black; */
+    height: 70%;
+    width: 60%;
+    background-color: rgb(150, 210, 221);
+    border-radius: 20px;
+}
+.search-cont{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+}
+.search-cont .search-bar{
+    font-size: 20px;
+    width: 50%;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.search-cont .search-but{
+    width: 7%;
+    margin-left:10px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.image-bar{
+    height: 25%;
+    width: 80%;
+    /* border: 2px solid rgb(244, 241, 241); */
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+.image-bar .image{
+    width: 30%;
+    /* border: 2px solid rgb(240, 235, 235); */
+    height: 90%;
+    border-radius: 20px;
+}
+.details-cont{
+    margin-left: 20px;
+    padding: 10px;
+}
+.details-cont .basic-cont{
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+.details-cont .locate-cont{
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.details-cont .followers-cont{
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+.details-cont .followers-cont .pro-follow{
+    margin-right:5%;
+}
+/* Entire Details */

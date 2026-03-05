@@ -1,0 +1,122 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.out{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.out .navegate{
+    margin-right: 200px;
+    text-decoration: none;
+    color: white;
+}
+.out div input{
+    height: 25px;
+}
+.out div button{
+    background-color: #f08804;
+    height: 25px;
+    width: 50px;
+    cursor: pointer;
+}
+#love{
+    height: 200px;
+    width:200px;
+    background-image: url(Code.png);
+    background-size: cover;
+    position: sticky;
+}
+#nave{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.hg{
+    height: 50px;
+}
+body .first{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body .first div{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:600px)
+{
+    body .first div{
+        background-color: blue;
+    }
+}
+#col{
+    background-color: blueviolet;
+    width: 100%;
+    height: 100%;
+}
+@media(max-width:300px) {
+    #col{
+        background-color: green;
+    }
+}
+@media(min-width:300px) and (max-width:400px)
+{
+    #col{
+        background-color: pink;
+    }
+}
+@media(min-width:400px) and (max-width:600px)
+{
+    #col{
+        background-color: red;
+    }
+}
+@media(min-width:600px)
+{
+    #col{
+        background-color: blue;
+    }
+}
+/* body .sub{
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    transition: all 2s ease-in-out 1ms;
+    cursor: pointer;
+}
+.sub:hover{
+    background-color: blue;
+    transform: scale(0.9);
+} */
+/* #spi{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 50%;
+    border-top: 5px solid black;
+    animation: spin 1.5s ease-in-out 0.5s infinite;
+}
+@keyframes spin{
+    to{
+        transform: rotate(360deg);
+    }
+} */ 

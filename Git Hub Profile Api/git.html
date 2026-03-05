@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Profile</title>
+    <link rel="stylesheet" href="git.css" >
+</head>
+<body>
+    <h2 id="name">GitHub Profile Finder</h2>
+    <div class="outer-cont">
+        <div class="search-cont">   
+            <input type="search" class="search-bar" placeholder="Search profile">
+            <button class="search-but">Search</button>
+        </div>
+        <div class="entire-details">
+            <div class="image-bar">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALUAAACUCAMAAADifZgIAAAAbFBMVEX///9NT05KTEwPFRFISklZW1ra29r8/PxQUlEAAABERkVAQkE8Pj329vbt7e3JyskvMTDQ0NA0NjW/v79gYWHl5eWkpKR+f35qa2u2trZ2d3eYmJiKi4oqLSuenp4VGRcjJSQDCwisrawdHR3G2mkmAAAE0klEQVR4nO2ciXKbMBBAERVIICHEfRhs1/n/f6wEdRontgMq8tKpXieZdpqJX3ZW0rJax/McDofD4XA4HA7H7iD6Q3/yEhEWdVNijMuhLkKRvP/PLtFqJCwaykfJmbJmXI6cNkWYTD/VHs2nYHcNlTlGVIPmP5hL2lx2Kq2l0pLHShmh6WNG/00FPSh2pz0HMvNPKsjoHhT5pzjTX7mnBFcuoh7ZA+dZPB5rsbd4h718bDzlCUWyD6E1bwkZuybxY3PK+K6008h/5vuHKN1PkhR8mbMiL/Zy5KQYL5WmGKe7cPaEHy8OtdpKYgHsO0WNUP50EX7W5j7xYJNbv3Z9XiOttM9H6BVJvIytctbwFDjUhPTL949rsHlPILXVSxfs+dFyzxqxAs5Zk/SrluJveJ+AWmf5emf1Y0rYzD7kBqFGNB8AnT3y08BZ8xMy1OkPk1CrYL+lgNaDyVrU8AZOmpQLC9SvBHC7SGUaahXsCsw6W30uvsPgEvuyvgb5DWU1mPXB2BoxuB27Mc8QwE2k+YsMcdavskaA1sZHI+hqrM0zhB/ArFd0b77EGu5xxvxEpzwDsxbGoUY+YC+nX9F1ugl13MNJe5fR8KlgvABai8jQOgJt9q3v4UwwyATxvG40CvXYgVqLwGQ9xgFsN5gcTVKEH4GvC0S5Otg0LgX05Uy3vqeaX6A7wd76VrDuTYKGWmuLaKV1BNdU+CC+pq8691N3ACGXNTmi9g9oYw3xkiF/du9/E2s5wDbcrxC9Ik/LrOmbvpLZRbA1h3zB9S7FsN32r3T42+cayvFlN2H25uv8rP2u1pZlupeb/xntkgwRe+xNWdRM63BH1jOiYQzfjj7R+RNmvAevPR6SDUHO8a03xTynA9wj+XPmSIZdg6WMfTrjc/WPptvV4NBnprm3RBSX9hTNnNq6EMkOs/kh/46pw/EFQvY6pbyARFRV+IyqEnORupcfMMnqQ9O2ZfCMsm2bQ51Cz8VdufQo5iyO8XfEsfo61MMWfvrFRRFEI340dn2niFI1yRgFBVjElXTVBfLp0PUDcyZpVwEleFK3Mr4dx18sHsu2BnmAzAIeT8PgZi1s9ezzyjpw3p9FExnqvscbRb24fsfXkLZGw2WfvHk7T8i9yLpj5nfRH+Hshe33S45X7xx3oTh/1XRLMhjefN3TpmPzmr3kYDDl+YT88Iq0rreVRkge7Ut30jc5Vx4wfSNpeUkSr3j6FiRDZGF386vWXx4tIC6tXh+QYYPD5QsU5YPNWGdvG+b0R94s1iRJbjxN+w2+tNfq2Xin/oC16XfiVdhWqFWw/cpKrIl33KZkug872rAmXkgXv7XOAEztNF47a1k9kVs5IZPeZoKoFGltFH/V2ao0Qmcb7YbjdlX1XehoYwjUSgXy0RoH20sLGxXILXL7FMlWvmV0PfS88d5H/mrWeil841Od2E9rpMvsba0Vgb0a5IpPt5ZOrDtr7U3PGZUgof0EUSmydSmSWbdWiz3ONq777Fsr4q3Hz1Jn/QjsrJ31K63Jy6y3vaP5N/cQg18TYmC9ad9M39X5dhp8t9abP+8epVVrfd8qt39wTEo5/14va9p5aaG1UPUjR74lsM/H3kLrnXhJ2p5+2OLUpvsYJ3c4HA6Hw+FwOP47fgEDOUxiQFL/GgAAAABJRU5ErkJggg=="
+                 alt="Profile" class="image">
+            </div>
+            <div class="details-cont">
+                <div class="basic-cont">
+                    <span id="pro-name">Name:- </span>
+                    <p id="pro-id">Bio:- </p>
+                </div>
+                <div class="locate-cont">
+                    <span id="pro-locate">location:- </span>
+                    <span id="pro-company">company:- </span>
+                </div>
+                <div class="followers-cont">
+                    <span class="pro-follow">Public_Repositories:- </span>
+                    <span class="pro-follow">Followers:- </span>
+                    <span class="pro-follow">Following:- </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="git.js"></script>
+</body>
+</html>
